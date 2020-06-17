@@ -7,6 +7,7 @@
  * @package MoroccanInterior
  */
 
+// The theme's template functions.
 require 'inc/template-functions.php';
 
 
