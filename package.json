@@ -1,0 +1,24 @@
+{
+  "name": "moroccaninterior",
+  "version": "1.0.0",
+  "description": "A Storefront child theme",
+  "scripts": {
+    "start": "browser-sync start --proxy 'moroccaninterior.test' --files '**/*'",
+    "lint:scss": "stylelint '*.css'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ismail-elkorchi/moroccaninterior.git"
+  },
+  "author": "Ismail El Korchi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ismail-elkorchi/moroccaninterior/issues"
+  },
+  "homepage": "https://github.com/Ismail-elkorchi/moroccaninterior#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "stylelint": "^13.6.1",
+    "stylelint-config-wordpress": "^17.0.0"
+  }
+}
