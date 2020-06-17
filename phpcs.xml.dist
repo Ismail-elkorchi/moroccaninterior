@@ -90,7 +90,7 @@
 		 Multiple valid prefixes can be provided as a comma-delimited list. -->
 	<rule ref="WordPress.NamingConventions.PrefixAllGlobals">
 		<properties>
-			<property name="prefixes" type="array" value="mi" />
+			<property name="prefixes" type="array" value="moroccaninterior" />
 		</properties>
 	</rule>
 
