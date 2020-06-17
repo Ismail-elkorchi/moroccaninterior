@@ -1,0 +1,205 @@
+/* 
+Theme Name: Moroccan Interior
+Version: 1.0 
+Description: Child theme for Storefront. 
+Author: Ismail El korchi
+Author URI: https://www.ismailelkorchi.com
+Template: storefront 
+*/
+
+
+/* Header customization*/
+@media (min-width: 768px) {
+    #masthead .col-full {
+        display: flex;
+        align-items: center;
+    }
+
+    #masthead .main-navigation {
+        text-align: right;
+    }
+
+    .woocommerce-active .site-header div.site-branding {
+        width: auto;
+    }
+
+    .site-header {
+        padding-top: 0.618em;
+		padding-bottom: 0.618em;
+    }
+    
+    .site-branding {
+/* 	    margin-bottom: 0.41575em; */
+		margin-bottom:0;
+    }
+	
+	.site-header .site-branding img {
+    max-width: 260px;
+}
+}
+
+/* Body custumization*/
+/* .home.blog .site-header, .home.page:not(.page-template-template-homepage) .site-header, .home.post-type-archive-product .site-header{
+	margin-bottom: 0;
+} */
+  .col-full {
+    max-width: 60.4989378333em;
+}
+.site-header{
+	padding-top:0;
+	padding-bottom:0;
+	background-color:#ffffff;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+	margin-bottom: 4.235801032em;
+}
+.site-header .site-branding img{
+	max-width: 260px;
+}
+.main-navigation ul.menu > li > a, .main-navigation ul.nav-menu > li > a{
+	padding: 3em .8em;
+	font-size: 13px;
+	text-transform: uppercase;
+	color:#838180;
+}
+.main-navigation ul li a:hover,
+.main-navigation ul li:hover > a,
+.site-title a:hover, 
+.site-header ul.menu li.current-menu-item > a{
+	color:#c3755a;
+}
+@media (min-width: 768px){
+	.storefront-full-width-content .woocommerce-tabs ul.tabs {
+		display: flex;
+		justify-content: center;
+	    width:initial;
+	    float: initial;
+    	margin-right: initial;
+	}
+	
+	.woocommerce-tabs ul.tabs li.active::after {
+  	  left: 1em;
+	}
+	
+	.woocommerce-tabs ul.tabs li a {
+    	margin: 0 1em;
+	}
+	
+	.storefront-full-width-content .woocommerce-tabs .panel {
+    	float: none;
+		margin: 0 auto;
+	}
+}
+
+h1, h2, h3, h4, h5, h6{
+	color:#111;
+}
+
+h1.product_title{
+	color: #636363;
+}
+body, .secondary-navigation a {
+    color: #636363;
+}
+.single-product div.product p.price{
+	color: #111;
+}
+
+.hentry .entry-content .wp-block-cover .wp-block-cover__inner-container h6, .editor-styles-wrapper .wp-block-cover .wp-block-cover__inner-container h6{
+	font-size: 1em;
+}
+h1.product_title{
+	font-size:2em;
+}
+.storefront-full-width-content.single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--columns-5 .flex-control-thumbs li {
+      margin-bottom: 2.1111111111%; }
+.stock.out-of-stock::before {
+  content: none; 
+}
+.stock.out-of-stock {
+  color: #111; 
+font-size:.975em;
+}
+.woocommerce-info, .woocommerce-noreviews, p.no-comments{
+	background-color:transparent;
+}
+a {
+    color: #111111;
+}
+.single-product div.product .product_meta a{
+	text-decoration:none;
+}
+
+.site-header-cart .widget_shopping_cart{
+	border-color:#dbac9c;
+}
+.wc-forward::after, .woocommerce-Button--next::after{
+	content:none;
+}
+.woocommerce-message, .woocommerce-info, .woocommerce-error, .woocommerce-noreviews, p.no-comments{
+	color:#c3755a;
+}
+.storefront-sticky-add-to-cart img{
+	max-width: 2.706em;
+}
+.storefront-sticky-add-to-cart__content-title{
+	float:left;
+	margin-right: 0.875em;
+}
+.storefront-sticky-add-to-cart__content-price{
+	margin-right:0;
+}
+div.blockOverlay {
+  background-color: #ffffff !important;
+}
+.storefront-sticky-add-to-cart{
+	font-size:.8em;
+	border-bottom: 1px solid #ddd;
+	box-shadow:none;
+	padding:.7em;
+}
+.storefront-product-pagination a{
+	box-shadow:1px 1px 10px rgba(0,0,0,.15);
+}
+.storefront-product-pagination a{
+	color:#c3755a;
+}
+table {
+    border-spacing: 0;
+}
+table:not(.has-background) th {
+    background-color: #ffffff;
+}
+.shop_table thead th, .shop_table .order-total td, .shop_table .order-total th {
+    border-width: 3px;
+}
+table.shop_table_responsive tbody tr td, table.shop_table_responsive tbody tr th{
+	vertical-align:middle;
+}
+th, td {
+    padding: .5em;
+        padding-left: 0.5em;
+    text-align: left;
+    border-bottom: 1px solid #ececec;
+        border-bottom-width: 1px;
+    line-height: 1.3;
+    font-size: .9em;
+}
+.hentry .entry-content a{
+	text-decoration:none;
+}
+table.cart td.product-subtotal{
+	padding-bottom:0;
+}
+table.cart td.product-remove{
+	border-bottom:1px solid #ececec;
+}
+
+/* Footer custumization*/
+.site-footer {
+    padding: 1.618em 0 0;
+}
+
+.site-info {
+    text-align: center;
+    padding: 1.618em 0;
+}
