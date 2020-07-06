@@ -71,6 +71,7 @@ body {
 .editor-styles-wrapper .wp-block-button .wp-block-button__link {
 	font-weight: 500;
 	text-transform: uppercase;
+	border: 2px solid #fff;
 }
 
 .site-header {
@@ -83,11 +84,6 @@ body {
 
 .site-header .site-branding img {
 	max-width: 260px;
-}
-
-.hentry .entry-content .wp-block-button .wp-block-button__link,
-.editor-styles-wrapper .wp-block-button .wp-block-button__link {
-	border: 2px solid #fff;
 }
 
 .main-navigation ul.menu > li > a,
@@ -144,6 +140,7 @@ h6 {
 
 h1.product_title {
 	color: #636363;
+	font-size: 1.7em;
 }
 
 h2,
@@ -223,6 +220,8 @@ body,
 
 .single-product div.product p.price {
 	color: #111;
+	font-size: 1.41575em;
+	font-weight: 500;
 }
 
 .alt-font {
@@ -232,7 +231,7 @@ body,
 
 .hentry .entry-content .wp-block-cover .wp-block-cover__inner-container h6,
 .editor-styles-wrapper .wp-block-cover .wp-block-cover__inner-container h6 {
-	font-size: 1em;
+	font-size: 1.15em;
 }
 
 .wc-block-grid.has-3-columns .wc-block-grid__products li:last-child,
@@ -259,13 +258,8 @@ ul.products .wc-block-grid__product .price,
 .wc-block-grid__products li.product .price,
 .wc-block-grid__products .wc-block-grid__product .price {
 	margin-bottom: 0;
-}
-
-ul.products li.product .price,
-ul.products .wc-block-grid__product .price,
-.wc-block-grid__products li.product .price,
-.wc-block-grid__products .wc-block-grid__product .price {
 	color: #111;
+	font-weight: 500;
 }
 
 .price del,
@@ -300,15 +294,6 @@ ul.products .wc-block-grid__product .price,
 
 ul.products li.product.type-product {
 	margin-bottom: 2em;
-}
-
-.single-product div.product p.price {
-	font-size: 1.41575em;
-	font-weight: 500;
-}
-
-h1.product_title {
-	font-size: 1.7em;
 }
 
 .storefront-full-width-content.single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--columns-5 .flex-control-thumbs li {
@@ -361,6 +346,7 @@ a {
 .woocommerce-noreviews,
 p.no-comments {
 	color: #c3755a;
+	margin-bottom: 2em;
 }
 
 .cart-empty.woocommerce-info {
@@ -512,7 +498,6 @@ h2.woocommerce-loop-category__title {
 	padding-top: 2em;
 	display: block;
 	text-transform: uppercase;
-	color: white;
 	font-weight: 500 !important;
 	font-size: 1.5625em !important;
 	color: #fff;
@@ -535,19 +520,6 @@ h2.woocommerce-loop-category__title mark {
 h2.woocommerce-loop-product__title {
 	font-family: "Alegreya sans", serif;
 	text-transform: none;
-}
-
-.hentry .entry-content .wp-block-cover .wp-block-cover__inner-container h6,
-.editor-styles-wrapper .wp-block-cover .wp-block-cover__inner-container h6 {
-	font-size: 1.15em;
-}
-
-ul.products li.product .price,
-ul.products .wc-block-grid__product .price,
-.wc-block-grid__products li.product .price,
-.wc-block-grid__products .wc-block-grid__product .price {
-	font-weight: 500;
-
 }
 
 ul.products li.product,
@@ -591,18 +563,14 @@ textarea {
 	box-sizing: border-box;
 	border: 1px solid #ddd;
 	padding: 0 0.75em;
-	padding-right: 0.75em;
+	padding-right: 1.4em;
 	font-size: 0.97em;
-	border-radius: 0;
 	max-width: 100%;
 	width: 100%;
-	vertical-align: middle;
 	background-color: #fff;
 	color: #333;
 	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
 	transition: color 0.3s, border 0.3s, background 0.3s, opacity 0.3s;
-	background-color: #fff;
-	padding-right: 1.4em;
 	border-radius: 0;
 	display: block;
 
@@ -648,14 +616,6 @@ a.remove {
 
 .woocommerce-message {
 	font-size: 1.15em;
-}
-
-.woocommerce-message,
-.woocommerce-info,
-.woocommerce-error,
-.woocommerce-noreviews,
-p.no-comments {
-	margin-bottom: 2em;
 }
 
 button,
