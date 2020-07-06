@@ -4,7 +4,8 @@
   "description": "A Storefront child theme",
   "scripts": {
     "start": "browser-sync start --proxy 'moroccaninterior.test' --files '**/*'",
-    "lint:css": "stylelint '*.css'"
+    "lint:css": "stylelint '*.css'",
+    "fix:css": "stylelint '*.css' --fix"
   },
   "repository": {
     "type": "git",
