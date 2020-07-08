@@ -29,4 +29,12 @@ jobs:
           -e 'ssh -i ./deploy_key -o StrictHostKeyChecking=no' \
           --exclude /deploy_key \
           --exclude /.git/ \
+          --exclude /.github/ \
+          --exclude /.gitignore \
+          --exclude /.stylelintrc.json \
+          --exclude /.travis.yml \
+          --exclude /composer.json \
+          --exclude /package.json \
+          --exclude /phpcs.xml.dist \
+          --exclude /README.md \
           ./ ${{env.dest}}
