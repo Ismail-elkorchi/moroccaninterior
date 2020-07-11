@@ -315,13 +315,6 @@ p.no-comments {
 	background-color: transparent;
 }
 
-.storefront-full-width-content.single-product div.product .woocommerce-product-gallery {
-	width: 45.13%;
-}
-
-.storefront-full-width-content.single-product div.product .summary {
-	width: 50.522%;
-}
 
 a {
 	color: #111;
@@ -329,6 +322,10 @@ a {
 
 .single-product div.product .product_meta a {
 	text-decoration: none;
+}
+
+.single-product div.product .woocommerce-product-gallery img {
+	width: 100%;
 }
 
 .site-header-cart .widget_shopping_cart {
