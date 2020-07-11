@@ -113,7 +113,7 @@ body {
 	}
 
 	.woocommerce-tabs ul.tabs li.active::after {
-		left: 1em;
+		left: 0;
 	}
 
 	.woocommerce-tabs ul.tabs li a {
