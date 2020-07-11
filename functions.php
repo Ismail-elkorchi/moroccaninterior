@@ -9,6 +9,8 @@
 
 // The theme's template functions.
 require 'inc/template-functions.php';
+// The theme's template functions.
+require 'inc/customizer.php';
 
 
 /**

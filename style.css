@@ -77,7 +77,6 @@ body {
 .site-header {
 	padding-top: 0;
 	padding-bottom: 0;
-	background-color: #fff;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 	margin-bottom: 4.235801032em;
 }
@@ -93,13 +92,6 @@ body {
 	text-transform: uppercase;
 	color: #838180;
 	letter-spacing: 0.02em;
-}
-
-.main-navigation ul li a:hover,
-.main-navigation ul li:hover > a,
-.site-title a:hover,
-.site-header ul.menu li.current-menu-item > a {
-	color: #c3755a;
 }
 
 @media (min-width: 768px) {
@@ -211,11 +203,6 @@ ul.products .wc-block-grid__product.product-category img,
 .wc-block-grid__products li.product.product-category img,
 .wc-block-grid__products .wc-block-grid__product.product-category img {
 	margin-bottom: 0;
-}
-
-body,
-.secondary-navigation a {
-	color: #636363;
 }
 
 .single-product div.product p.price {
